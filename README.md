@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# 🃏 Aplikasi Swipeable Card Berbasis Expo dan Reanimated
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Deskripsi Aplikasi
 
-## Get started
+Aplikasi Swipeable Card merupakan aplikasi mobile sederhana yang dikembangkan
+menggunakan **React Native** dengan framework **Expo**. Aplikasi ini menampilkan
+kartu dalam bentuk tumpukan (stack) yang dapat digeser (swipe) ke kiri dan ke kanan
+menggunakan gesture sentuhan, dengan animasi yang halus dan responsif seperti pada
+aplikasi Tinder.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Fitur Aplikasi
 
-2. Start the app
+- 🗂️ Menampilkan minimal tiga kartu dalam tata letak bertumpuk (stack)
+- 👉 Kartu paling atas dapat digeser (swipe) ke kiri dan ke kanan
+- 🔄 Swipe ke kiri dan ke kanan memiliki perilaku yang berbeda
+- 🎞️ Animasi mengikuti pergerakan jari pengguna secara real-time
+- 💫 Transisi antar kartu berjalan dengan halus dan stabil
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📁 Struktur Folder Project
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+RN-EXPO-ANIMATION-MAIN
+├── .vscode
+│   ├── extensions.json
+│   └── settings.json
+│
+├── app
+│   ├── (tabs)
+│   ├── _layout.tsx
+│   └── assets
+│       └── images
+│
+├── components
+│   ├── ButtonAnimated.tsx
+│   └── SwipeableCard.tsx
+│
+├── node_modules
+├── .gitignore
+├── app.json
+├── babel.config.js
+├── eslint.config.js
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
 ```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
