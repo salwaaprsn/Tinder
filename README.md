@@ -50,3 +50,55 @@ RN-EXPO-ANIMATION-MAIN
 ```
 ---
 
+## 🛠️ Teknologi yang Digunakan
+
+- ⚛️ React Native
+- 🚀 Expo
+- 🎞️ react-native-reanimated
+- ✋ react-native-gesture-handler
+- 🟦 TypeScript
+
+---
+
+## ▶️ Cara Menjalankan Aplikasi
+
+1. Clone repository
+
+```bash
+git clone https://github.com/salwaaprsn/Tinder.git
+cd RN-EXPO-ANIMATION-MAIN
+```
+
+2. Install dependency
+
+```bash
+npm install
+```
+
+3. Jalankan project
+
+```bash
+npx expo start
+```
+
+4. Pilih metode:
+
+- Tekan `a` untuk Android Emulator
+- Tekan `w` untuk Web Browser
+- Scan QR Code untuk menjalankan di perangkat fisik
+
+---
+
+## 🔗 Link Terkait
+
+- **Video Demonstrasi:** [Tonton Demo](https://drive.google.com/file/d/1NiC7sK9IVY2hATc2-UO0MDwkDFW9EDBL/view?usp=drivesdk)
+
+---
+
+## 👩‍💻 Author
+
+Nama : Salwa Aprilia Santi
+
+NIM: 20230040141
+
+Kelas: TI23F
